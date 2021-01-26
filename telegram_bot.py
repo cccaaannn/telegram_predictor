@@ -69,6 +69,7 @@ class telegram_bot():
             update.message.reply_text("Send an image for predicting")
 
         def prediction_handler(update, context):
+            logging.info("User information: {0}".format(update.message.from_user))
             try:    
                 # download image from api
                 file_id = update.message.photo[-1].file_id
