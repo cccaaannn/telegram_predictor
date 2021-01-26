@@ -11,3 +11,6 @@
 - Get a telegram bot key.
 - Pass model weights folder path, class names file path and botkey to the telegram_bot function.
 - It will work. (I hope 🤷🏻‍♂️)
+
+## **Examples**
+</br><img src="readme_images/1.png" alt="drawing" width="400" height="600"/> <img src="readme_images/2.png" alt="drawing" width="400"  height="600"/></br>
